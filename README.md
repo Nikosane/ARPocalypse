@@ -25,10 +25,10 @@ python arp_spoof.py <Target IP> <Gateway IP>
     <Target IP>: The IP address of the target device.
     <Gateway IP>: The IP address of the gateway (usually the router).
 
-Example
-
+## Example
+```
 python arp_spoof.py 192.168.1.5 192.168.1.1
-
+```
 This will spoof the ARP tables of the target device (192.168.1.5) and the gateway (192.168.1.1).
 ---
 ## Restoring the Network
