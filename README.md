@@ -32,5 +32,4 @@ python arp_spoof.py 192.168.1.5 192.168.1.1
 This will spoof the ARP tables of the target device (192.168.1.5) and the gateway (192.168.1.1).
 ---
 ## Restoring the Network
-
 When you stop the script, it will attempt to restore the original ARP entries and return the network to normal.
